@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title> Form </title>
+    </head>
+    <body>
+        <table border="0" cellpadding="0" cellspacing="0" width="500" align="center" style="border-top: 3px solid #888888; border-left: 3px solid #888888; border-right: 3px solid black; border-bottom: 3px solid black;">            
+            <tr>
+                <td>
+                    <table border="1" cellpadding="10" cellspacing="1" width="100%" bgcolor="white">                        
+                        <tr bgcolor="#87CEEB">
+                            <td align="center">
+                                <b><font face="Arial" size="5" color="red">Pendaftaran Kursus</font></b>
+                            </td>
+                        </tr>
+
+                        <tr bgcolor="#808080">
+                            <td>
+                                <b><font face="Arial" size="5" color="black">Data Diri</font></b>
+                                <br><br>
+                                
+                                <table border="0" cellpadding="4" cellspacing="0">
+                                    <tr>
+                                        <td width="200"><font face="Times New Roman" size="3" color="black">Nama</font></td>
+                                        <td><input type="text" name="nama" size="30"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><font face="Times New Roman" size="3" color="black">Nim</font></td>
+                                        <td><input type="text" name="nim" size="30"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><font face="Times New Roman" size="3" color="black">E-mail</font></td>
+                                        <td><input type="text" name="email" size="30"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><font face="Times New Roman" size="3" color="black">Tanggal Lahir</font></td>
+                                        <td><input type="text" name="tgllahir" value="hh/bb/tttt" size="25"></td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top"><font face="Times New Roman" size="3" color="black">Jenis Kelamin</font></td>
+                                        <td>
+                                            <input type="radio" name="jk" value="L"> <font face="Times New Roman" size="3" color="black">Laki-laki</font><br>
+                                            <input type="radio" name="jk" value="P"> <font face="Times New Roman" size="3" color="black">Perempuan</font>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top"><font face="Times New Roman" size="3" color="black">Pilih Program Kursus</font></td>
+                                        <td>
+                                            <input type="checkbox" name="kursus" value="csharp"> <font face="Times New Roman" size="3" color="black">C#</font><br>
+                                            <input type="checkbox" name="kursus" value="java"> <font face="Times New Roman" size="3" color="black">Java</font><br>
+                                            <input type="checkbox" name="kursus" value="sql"> <font face="Times New Roman" size="3" color="black">SQL</font><br>
+                                            <input type="checkbox" name="kursus" value="htmlphp"> <font face="Times New Roman" size="3" color="black">HTML dan PHP</font>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><font face="Times New Roman" size="3" color="black">Pilihan Hari/Jam Kursus</font></td>
+                                        <td>
+                                            <select name="waktu">
+                                                <option>Senin - Rabu/09.00 - 11.00</option>
+                                                <option>Kamis - Sabtu/09.00 - 11.00</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+                        <tr bgcolor="#FA8072">
+                            <td>
+                                <font face="Times New Roman" size="3" color="black">Komentar Anda</font><br>
+                                <textarea name="komentar" rows="5" cols="60"></textarea><br><br>
+                                <input type="reset" value="Reset">
+                                <input type="submit" value="Submit">
+                                <input type="button" value="Cancel">
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+    </body>
+</html>
