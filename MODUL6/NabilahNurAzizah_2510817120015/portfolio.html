@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRTSarchive</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        .corner-bracket {
+            position: fixed;
+            width: 40px;
+            height: 40px;
+            border-color: #000000;
+            border-style: solid;
+            z-index: 9999;
+        }
+        
+        .corner-top-left { top: 20px; left: 20px; border-width: 8px 0 0 8px; }
+        .corner-top-right { top: 20px; right: 20px; border-width: 8px 8px 0 0; }
+        .corner-bottom-left { bottom: 20px; left: 20px; border-width: 0 0 8px 8px; }
+        .corner-bottom-right { bottom: 20px; right: 20px; border-width: 0 8px 8px 0; }
+        
+        body {
+            padding: 40px 20px;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <div class="corner-bracket corner-top-left"></div>
+    <div class="corner-bracket corner-top-right"></div>
+    <div class="corner-bracket corner-bottom-left"></div>
+    <div class="corner-bracket corner-bottom-right"></div>
+
+    <div class="container d-flex flex-column flex-grow-1">
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 px-4 mb-5">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold fs-4" href="main.html">CRTSarchive</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto gap-3 align-items-center">
+                        <li class="nav-item"><a class="nav-link text-muted" href="main.html" style="font-size: 0.85rem;">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link text-muted" href="about.html" style="font-size: 0.85rem;">ABOUT ME</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark border border-dark rounded-pill px-4 py-1" href="portfolio.html" style="font-size: 0.85rem;">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link text-muted" href="contact.html" style="font-size: 0.85rem;">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row align-items-center justify-content-center mt-5 mb-5">
+            <div class="col-12 col-md-7">
+                <h2 class="fw-bold fs-1 mb-3">I Craft <span class="text-secondary">Products</span>,<br>
+                    <span class="text-info">Interactions</span> & <span class="text-success">Stories.</span></h2>
+                <p class="text-muted">Web Designer at MarStudio. Based in Toronto.</p>
+            </div>
+        </div>
+
+        <div class="text-center mt-auto pt-4 pb-2">
+            <h6 class="fw-bold mb-1">CRTSarchive</h6>
+            <p class="text-muted mb-3" style="font-size: 0.7rem;">&copy; Copyrights 2026. All Rights Reserved</p>
+        
+            <div class="d-flex justify-content-center gap-3 text-secondary" style="font-size: 0.9rem;">
+                <a href="https://www.youtube.com/@cortis_bighit" class="text-secondary text-decoration-none" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.tiktok.com/@cortis_bighit" class="text-secondary text-decoration-none" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
+                <a href="https://instagram.com/cortis" class="text-secondary text-decoration-none" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/cortis_bighit" class="text-secondary text-decoration-none" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/cortis.bighit/" class="text-secondary text-decoration-none" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://weibo.com/cortisbighit" class="text-secondary text-decoration-none" target="_blank" rel="noopener noreferrer"><i class="fab fa-weibo"></i></a>
+                <a href="https://space.bilibili.com/3546908043774464" class="text-secondary text-decoration-none" target="_blank" rel="noopener noreferrer"><i class="fab fa-bilibili"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
